@@ -1,3 +1,15 @@
+//Example
+function homeOne() {
+    hPoints++
+    homePoints.textContent = hPoints
+}
+
+window.homeOne = homeOne
+
+// Expose the rest of the functions to the window object
+
+
+
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
